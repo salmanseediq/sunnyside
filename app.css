@@ -8,6 +8,7 @@ body
 {
     font-size:18px;
     font-family: 'Barlow', sans-serif;
+    
 }
 
 header
@@ -30,6 +31,7 @@ header h1
 .navbar
 {
     display: flex;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -72,85 +74,25 @@ button
     display:flex;
     align-items: center;
     justify-content: space-around;
-    flex-wrap:wrap;
-    margin:10px 0;
+    flex-wrap:nowrap;
+    margin:auto;
 }
 .col-1
 {
-    flex-basis:100%;
-    min-width:500px;
+    flex-basis:50%;
+    min-width:800px;
 }
 .col-1 img
 {
-    width:100%;
-    margin-top:30px;
-    
+    width:100%;   
 }
 
 .col-1 h2
 {
-    margin-top:300px;
+    margin-top: 90px;
     font-size:40px;
     color:#fff;
     text-align: center;
     word-spacing:20px;
     font-family: 'Fraunces', serif;
 }
-
-.col-2
-{
-    flex-basis:50%;
-    min-width:500px;
-}
-
-.col-2 img
-{
-    max-width:100%;
-}
-
-.transform
-{
-    margin:70px 0;
-}
-
-.small-container
-{
-    max-width:1200px;
-    margin:auto;
-   
-}
-
-.brand
-{
-    margin-bottom: 90px;
-}
-#brand
-{
-    font-family: 'Fraunces', serif;
-    font-size:2em;
-    line-height: 90px;
-} 
-
-.col-2 p
-{
-    font-size:15px;
-    margin-right:40px;
-    font-weight:lighter;  
-}
-
-.align-audience
-{
-    margin-left: 50px;
-    margin-bottom: 50px;
-}
-
-.align-audience h1
-{
-    margin-bottom:50px;
-}
-.align-audience h3
-{
-    text-align: left;
-    margin-top: 50px;
-}
-
