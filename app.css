@@ -75,6 +75,24 @@ button
     flex-wrap:wrap;
     margin:50px 0;
 }
+.col-1
+{
+    flex-basis:80%;
+    min-width:800px;
+}
+.col-1 img
+{
+    width:100%;
+}
+
+.col-1 h2
+{
+    font-size:40px;
+    color:#fff;
+    text-align: center;
+    word-spacing:20px;
+    font-family: 'Fraunces', serif;
+}
 
 .col-2
 {
@@ -85,15 +103,6 @@ button
 .col-2 img
 {
     max-width:100%;
-}
-
-.col-2 h2
-{
-    font-size:40px;
-    color:#fff;
-    text-align: center;
-    word-spacing:20px;
-    font-family: 'Fraunces', serif;
 }
 
 .transform
@@ -123,6 +132,22 @@ button
 {
     font-size:15px;
     margin-right:40px;
-    font-weight:lighter;
-  
+    font-weight:lighter;  
 }
+
+.align-audience
+{
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+
+.align-audience h1
+{
+    margin-bottom:50px;
+}
+.align-audience h3
+{
+    text-align: left;
+    margin-top: 50px;
+}
+
