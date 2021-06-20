@@ -17,17 +17,25 @@
 </head>
 <body>
   <header>
-        <nav>
-        <div id="logo">
-        <img src="images/logo.svg" alt="" />
-        </div>
-        <ul>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Services</a></li>
-        <li><a href="#">Projects</a></li>
-        <li><a href="#" class="btn">Contact</a></li>
+      
+    <div class="navbar">
+      <div class="logo">
+      <img src="images/logo.svg">
+      </div>
+      <nav>
+      <ul id="menuitems">
+          <li><a href="">About</a></li>
+          <li><a href="">Services</a></li>
+          <li><a href="">Projects</a></li>
+         <li><a href="#" class="btn">Contact</a></li>
         </ul>
+        
       </nav>    
+      <img src="images/desktop/menu.png" class="menu" onclick="menuToggle()">
+     
+      
+   
+  </div>
        <h1>WE ARE CREATIVES</h1>
        <div id="down-arrow">
       <img src="./images/icon-arrow-down.svg" alt="" />
@@ -136,5 +144,20 @@
 
         </div>
       </footer>
+      <script>
+        var menuItems=document.getElementById("menuitems")
+        menuItems.style.maxHeight = "0px";
+        function menuToggle()
+        {
+            if( menuItems.style.maxHeight == "0px")
+            {
+             menuItems.style.maxHeight = "350px";
+            }
+            else
+            {
+             menuItems.style.maxHeight = "0px";
+            }
+        }
+    </script>
 </body>
 </html>
