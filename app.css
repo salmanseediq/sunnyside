@@ -37,6 +37,8 @@ header h1
 {
     display:flex;
     align-items: center; 
+    padding-left: 25px;
+    padding-right: 25px;
  
 }
 .logo img
@@ -271,7 +273,7 @@ h2
     transform:scaleY(1.0);
     box-shadow: 0 0 15px rgba(0,0,0.1);
     padding-top: 10px;
-  
+  cursor: pointer;
 }
 
 .emily p
@@ -312,7 +314,7 @@ opacity: 0.5;
     transform:scaleY(1.0);
     box-shadow: 0 0 15px rgba(0,0,0.1);
     padding-top: 10px;
-  
+    cursor: pointer;
 }
 
 .thomas p
@@ -353,6 +355,7 @@ opacity: 0.5;
     transform:scaleY(1.0);
     box-shadow: 0 0 15px rgba(0,0,0.1);
     padding-top: 10px; 
+    cursor: pointer;
 }
 
 .jennie p
