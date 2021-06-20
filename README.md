@@ -41,6 +41,6 @@ Your users should be able to:
 
 ## Author
 - Frontend Mentor - [@salmansiddiq](https://www.frontendmentor.io/profile/salmansiddiq)
-- Twitter - [@Adarshshanbhag5](https://www.twitter.com/salmansiddiq)
+- Twitter - [@salmansiddiq_](https://www.twitter.com/salmansiddiq_)
 
 
